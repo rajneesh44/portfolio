@@ -10135,3 +10135,18 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.mybutton{
+  font-size: 24px;
+  background-color: transparent;
+  color: white;
+  text-emphasis-color: white;
+  padding:8px 24px;
+  font-weight: 100;
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+}
+.mybutton:hover{
+  background-color: var(--orange);
+  color:white;
+}
