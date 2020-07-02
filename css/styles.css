@@ -10019,7 +10019,17 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
+  
 }
+h2{
+  /* color:var(--orange) */
+  color: 	#20B2AA;
+}
+h3{
+  /* color: 	#20B2AA; */
+  color:var(--orange)
+}
+
 
 h1 {
   line-height: 1;
@@ -10092,7 +10102,8 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  /* background-color: #495057; */
+  background-color: 	#20B2AA;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -10137,11 +10148,12 @@ section.resume-section .resume-section-content {
 }
 
 .mybutton{
-  font-size: 24px;
+  font-size: 28px;
   background-color: transparent;
+  font-family:'Times New Roman', Times, serif;
   color: white;
   text-emphasis-color: white;
-  padding:8px 24px;
+  padding:4px 16px;
   font-weight: 100;
   border: 2px solid var(--orange);
   border-radius: 8px;
@@ -10149,4 +10161,25 @@ section.resume-section .resume-section-content {
 .mybutton:hover{
   background-color: var(--orange);
   color:white;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  width: 340px;
+  height: 330px;
+  box-shadow: 5px 5px 5px 5px rgba(86,101,115,0.7);
+  transition: 0.3s;
+  background-color: #333;
+  border-color: grey;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  width: 360px;
+  height: 350px;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
